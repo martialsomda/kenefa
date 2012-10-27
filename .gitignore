@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+/src/kenefasys/modules/kenefa-ear/target/
+/src/kenefasys/modules/kenefa-domain/target/
+/src/kenefasys/modules/kenefa-rs/target/
+/src/kenefasys/modules/kenefa-ejb/target/
