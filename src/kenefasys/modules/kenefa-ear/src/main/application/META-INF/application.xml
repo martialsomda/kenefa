@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application version="6" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd">
+  <display-name>kenefa-ear</display-name>
+  <module>
+        <ejb>kenefa-ejb-1.0-SNAPSHOT.jar</ejb>    
+    </module>
+    <module>
+        <web>    
+            <web-uri>kenefa-rs-1.0-SNAPSHOT.war</web-uri>
+            <context-root>/kenefa-services</context-root>
+        </web>    
+    </module>
+    <library-directory>APP-INF/lib</library-directory>
+    <persistence-context-ref>
+        <persistence-context-ref-name>persistence/kenefasys-pu</persistence-context-ref-name>
+        <persistence-unit-name>kenefasys-pu</persistence-unit-name>
+    </persistence-context-ref>
+</application>

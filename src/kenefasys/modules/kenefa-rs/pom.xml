@@ -19,6 +19,12 @@
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>kenefa-ejb</artifactId>
+            <classifier>client</classifier>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
